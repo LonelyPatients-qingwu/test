@@ -1,0 +1,20 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/LonelyPatients-qingwu/test.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+	rebase = false
+[branch "Test2.java"]
+	remote = origin
+	merge = refs/heads/Test1.java
+	rebase = false
+[branch "Test1.java"]
+	remote = origin
+	merge = refs/heads/Test1.java
+	rebase = false
